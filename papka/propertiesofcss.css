@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+h2{
+    color: brown;
+}
+p{
+    font-size: 20px;
+}
+.newtext{
+    font-weight: bold;
+}
+.container{
+    background-color: bisque;
+}
+.container{
+    background-image: -moz-element();
+}
+.something{
+    padding: 15px;
+    border: 1px solid sienna;
+}
+.else{
+    margin: 20px;
+    border: 1px solid sienna;
+}
+.barbie img{
+    width: 100px;
+    height: 100px;
+}
+.over{
+    width: 500px;
+    height: 200px;
+    background-color: bisque;
+    overflow:  scroll;
+}
