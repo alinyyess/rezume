@@ -1,0 +1,47 @@
+.block2{
+    background-color: rgb(45, 159, 194);
+    font-size: 30px;
+    margin: 20px;
+}
+.block1{
+    background-color: rgb(228, 32, 32);
+    font-size: 35px;
+    margin: 20px;
+}
+.block3{
+    background-color: rgb(224, 189, 33);
+    font-size: 30px;
+    margin: 20px;
+}
+.block4{
+    width: 550px;
+    height: 350px;
+}
+p{
+    display: inline;
+}
+img{
+    display:block;
+}
+.abzincont{
+    font-size: 35px;
+    background-color: rgb(35, 117, 19);
+    display: block;
+    margin: auto;
+    width:fit-content
+}
+.imgincont{
+    width: 500px;
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+.linkincont{
+    font-size: 35px;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+.container{
+    display: block;
+}
