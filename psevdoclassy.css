@@ -1,0 +1,47 @@
+.click{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(114, 19, 19);
+    color: aliceblue;
+    border-color: rgb(70, 6, 6);
+    border-radius: 8px;
+    font-size: 20px;
+}
+.inputt{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(6, 54, 8);
+    color: aliceblue;
+    border-color: rgb(13, 49, 1);
+    border-radius: 8px;
+    font-size: 15px;
+}
+.click:hover{
+    background-color: rgb(150, 10, 10);
+    color: rgb(145, 151, 156);
+}
+.inputt:focus{
+    background-color: rgb(15, 92, 8);
+    color: rgb(158, 176, 190);
+}
+.order:first-child{
+    color: rgb(10, 10, 73);
+}
+.order:last-child{
+    color:rgb(20, 101, 172)
+}
+.Directlink{
+    color: rgba(16, 130, 165, 0.986);
+}
+.Helplink{
+    color: rgb(17, 106, 148);
+}
+.Directlink:hover{
+    color: rgb(228, 97, 36);
+}
+.Helplink:hover{
+    color: rgb(219, 102, 23);
+}
+.block1:nth-child(odd){
+    color: rgb(233, 181, 118);
+}
