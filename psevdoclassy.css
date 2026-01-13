@@ -45,3 +45,9 @@
 .block1:nth-child(odd){
     color: rgb(233, 181, 118);
 }
+.block3:last-child:focus{
+    color: rgb(197, 82, 28);
+}
+.block4:first-child:hover{
+    color: rgb(235, 117, 136);
+}
