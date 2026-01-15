@@ -1,0 +1,57 @@
+.static{
+    position: static;
+    background-color: rgb(147, 223, 223);
+    width: 200px;
+    height: 100px;
+}
+.static2{
+    position: static;
+    background-color: rgb(184, 33, 33);
+    width: 150px;
+    height: 100px;
+}
+.relative{
+    position: relative;
+    background-color: rgb(174, 120, 224);
+    width: 250px;
+    height: 150px;
+    top: 20px;
+    left: 300px;
+}
+.absolute{
+    position: absolute;
+    background-color: rgb(221, 150, 83);
+    width: 150px;
+    height: 100px;
+    bottom: 50px;
+    left: 500px;
+}
+.absoluteel2{
+    position: absolute;
+    background-color: rgb(240, 255, 30);
+    width: 250px;
+    height: 100px;
+    bottom: 150px;
+}
+.container2{
+    height: 500px;
+}
+.sticky{
+    position: sticky;
+    top: 10px;
+    background-color: rgb(136, 42, 42);
+
+}
+.sticky2{
+    position: sticky;
+    top: 45px;
+    background-color: rgb(235, 196, 150);
+}
+.fixed{
+    position: fixed;
+    background-color: rgb(37, 124, 29);
+    bottom: 10px;
+    right:10px;
+    width: 150px;
+    height: 100px;
+}
