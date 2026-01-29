@@ -59,3 +59,16 @@ item3{
     justify-content: space-between;
     align-items: center;
 }
+.gallery{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    flex-wrap: wrap;
+    
+}
+.cards{
+    flex-basis: 26%;
+}
+.cards2{
+    flex-grow: 1;
+}
