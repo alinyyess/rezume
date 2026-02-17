@@ -13,6 +13,12 @@ header{
     justify-content: space-between;
     border-bottom: 1.5px solid #EEF0F3;
 }
+.same, .colorfulheader{
+    height: 80px;
+}
+.different{
+    height: 65px;
+}
 .menu, .menu3, .menu4, .menu5{
     display: flex;
     align-items: center;
