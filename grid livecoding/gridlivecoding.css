@@ -1,0 +1,65 @@
+.card1, .card2, .card3, .card4, .card5, .card6{
+    background-color: #E1EDE6;
+    width: fit-content;
+    padding: 20px 20px 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 1110px;
+    margin-top: 215.64px;
+}
+.author{
+    color: #86928B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.title2{
+    color: #2C2D35;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+.materials{
+    color: #2C2D35;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+.price{
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+.greenbtn{
+    border: 1px solid #598D66;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 30px;
+    padding: 20px 81.5px;
+    color: #598D66;
+    background-color: #E1EDE6;
+}
+@media(max-width: 1024px){
+    .container{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 730px;
+    margin-top: 85px;
+}
+}
