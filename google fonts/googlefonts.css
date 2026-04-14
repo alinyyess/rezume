@@ -1,0 +1,15 @@
+.embedcode{
+  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+ 
+@Font-face{
+    font-family: "Myfont";
+    src: url(./Montserrat\,Saira_Stencil/#E1EDE6)
+}
+.downloadcode{
+    color: #598D66;
+    font-family: Myfont, Arial, Helvetica, sans-serif,'Times New Roman', Times, serif;
+}
