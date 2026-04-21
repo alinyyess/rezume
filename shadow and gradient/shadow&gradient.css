@@ -1,0 +1,69 @@
+.bl1, .bl2, .bl3, .bl4, .bl5{
+    width: 200px;
+    height: 100px;
+}
+.five{
+    display: flex;
+    justify-content: space-between;
+}
+.bl1{
+    background-color: lightcoral;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+}
+.bl2{
+    background-color: rgb(253, 222, 185);
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+}
+.bl3{
+    background-color: rgb(157, 212, 140);
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, 0.35);
+}
+.bl4{
+    background-color: rgb(55, 232, 245);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.85);
+}
+.bl5{
+    background-color: rgb(236, 213, 231);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.55);
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+.h1{
+    color: rgb(95, 24, 161);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.h2{
+    color: rgb(72, 61, 165);
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.75);
+}
+.h3{
+    color: rgb(40, 203, 224);
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.6);
+}
+.h4{
+    color: rgb(55, 116, 73);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+}
+.h5{
+    color: rgb(136, 17, 17);
+    text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.35);
+}
+.linrad{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.lin{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to left, rgb(89, 161, 185), rgb(255, 255, 79), rgb(226, 28, 28));
+}
+.rad{
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(circle, rgb(250, 192, 202) , rgb(198, 236, 240));
+}
