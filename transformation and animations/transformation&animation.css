@@ -1,0 +1,66 @@
+.rotate{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    transform: rotate(45deg);
+}
+.scale{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(34, 99, 34);
+    transform: scale(2);
+}
+.translate{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(252, 213, 219);
+    transform: translate(100px, 50px);
+}
+.skew{
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    transform: skew(30deg);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.transition{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(107, 37, 37);
+    transition: transform 1s, background-color 0.5s;
+}
+.transition:hover{
+    transform: rotate(30deg);
+    background-color: lightsalmon;
+}
+.animation{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(156, 119, 37);
+    animation: scale 1s, translate(50px,20px) infinite;
+}
+.keyframes{
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+    animation: animate 2s infinite 
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(1);
+        background-color: rgb(68, 177, 177);
+    }
+    50%{
+        transform: scale(3);
+        background-color: rgb(73, 137, 153);
+    }
+    100%{
+        transform: scale(1);
+        background-color: rgb(60, 85, 88);
+    }
+}
