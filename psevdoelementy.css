@@ -1,0 +1,49 @@
+.pr1::before{
+    content: "Торгово-Развлекательный Комплекс «ADK»";
+    display: block;
+    color: rgb(145, 52, 52);
+    margin-bottom: 10px;
+}.pr2::before{
+    content: "      Наш торгово-развлекательный комплекс располагает у себя отличный набор мест для веселого времяпрепровождения, как для детей таки и для их родителей. У нас Вы сможете найти:";
+    display: block;
+    color: rgb(145, 52, 52);
+    margin-bottom: 10px
+}
+.pr1{
+    margin-bottom: 30px;
+}
+.h1{
+    color: rgb(49, 104, 72);
+}
+.h2{
+    color: rgb(49, 104, 72);
+}
+.h1::after{
+    content: " 45 000 кв.м";
+    display: block;
+    color: rgb(133, 165, 165);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.h2::after{
+    content: " 800 000 в месяц";
+    display: block;
+    color: rgb(124, 155, 155);
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.div{
+    font-size: 80px;
+    color: rgb(105, 37, 37);
+}
+.div::before{
+    content: "==================================";
+    display: block;
+    color: rgb(236, 202, 4);
+}
+.div::after{
+    content: "==================================";
+    display: block;
+    color: rgb(233, 199, 6);
+}
