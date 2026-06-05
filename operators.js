@@ -3,7 +3,7 @@ let b=5
 let c=2
 let sum=a+b+c
 console.log(sum)
-let diff=b-(a+c)
+let diff=(a+c)-b
 console.log(diff)
 let protient=a*b/c
 console.log(protient)
@@ -11,8 +11,8 @@ let remainder=a%b
 console.log(remainder)
 
 let x=7
-let incr=++x + ++x
-let decr=--x - --x
+let incr=x++ + ++x
+let decr=x-- - --x
 console.log(decr)
 console.log(incr)
 

@@ -52,5 +52,7 @@ let num2=300
 let strNum2= String(num2)
 console.log(strNum2)
 
+
+
 let input = prompt('What is your name?')
 let input2 = parseInt(prompt('How old are you?'))
