@@ -18,9 +18,7 @@ let age = prompt("How old are you?");
 
 if (age < 18){
     console.log("You are still a teenager");
-}else if (age >= 18){
-    console.log("You are an young adult");
-}else if (age <= 30){
+}else if (18 <= age <= 30){
     console.log("You are an young adult");
 }else if(age > 30){
     console.log("You are an adult")
@@ -48,13 +46,13 @@ switch(dayNum){
     case "4":
         message ="Today is thursday";
         break;   
-        case "5":
+    case "5":
         message ="Today is friday";
         break;
     case "6":
         message ="Today is saturday";
         break;
-    case "1":
+    case "7":
         message ="Today is sunday";
         break;
     default:

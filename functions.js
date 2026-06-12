@@ -19,8 +19,6 @@ function isEven(a){
     if(true){
         let evenNum = a%2==0
         console.log(evenNum)
-    }else{
-        console.log(oddNum)
     }
 }
 isEven(6)
