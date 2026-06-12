@@ -18,24 +18,24 @@ console.log(sum(5,6))
 function isEven(a){
     if(true){
         let evenNum = a%2==0
-        console.log(evenNum)
+        return(evenNum)
     }
 }
-isEven(6)
-isEven(7)
+console.log(isEven(6))
+console.log(isEven(7))
 
 function max(x,y){
     if(x>y){
-        console.log("First number is greater")
+        return("First number is greater")
     }else if(x==y){
-        console.log("They are equal")
+        return("They are equal")
     }else{
-        console.log("Second number is greater")
+        return("Second number is greater")
     }
 }
-max(8,9)
-max(50,20)
-max(11,11)
+console.log(max(8,9))
+console.log(max(50,20))
+console.log(max(11,11))
 
 function getInitials(){
     let name = prompt("Your name: ")
