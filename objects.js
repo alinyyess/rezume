@@ -38,7 +38,7 @@ let book ={
         pages : 436
     }
 }
-Object.assign(book)
+let copyBook = Object.assign({},book)
 book.details.year = 1891
 console.log(book)
 
