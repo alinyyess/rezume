@@ -17,7 +17,7 @@ box.addEventListener('mouseover', () =>{
 const input = document.querySelector('#textInput')
 
 input.addEventListener('keydown',(event) =>{
-    console.log('Key is clicked:', event.key)
+    console.log('Key is clicked:', event.target.value)
 } )
 
 const link = document.querySelector('#myLink')
