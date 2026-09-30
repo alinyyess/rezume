@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    background-color: #0C0F10;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  height: 100vh;
+  
+}
+header{
+    background-color: #111415e7;
+    width: 100%;
+    height: 97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.rowheader{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 4px;
+}
+.arrow{
+    margin-top: 8px;
+}
+.menegerc{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #C4C6CF;
+}
+.novayapub{
+     font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #C4C6CF;
+}
+.rowheader2{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.sozdaniepub{
+     font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #E1E3E4;
+}
+.chernovic{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+    width: 70px;
+    height: 26px;
+    background-color: #323536;
+    border: 1px solid #43474E;
+    border-radius: 9999px;
+    margin-top: 10px;
+    align-content: center;
+    padding-left: 10px;
+}
+.headerblock1{
+    margin-left: 40px;
+    
+}
+.headerblock2{
+    margin-right: 40px;
+    display: flex;
+    gap: 16px;
+}
+.savechernovic{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #E1E3E4;
+    width: 182.72px;
+    height: 38px;
+    background-color: #1D2021;
+    border: 1px solid #43474E;
+    border-radius: 8px;
+}
+.opublicovat{
+     font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #163152;
+    width: 151.03px;
+    height: 36px;
+    background-color: #AFC8F0;
+    border: 1px solid #163152;
+    border-radius: 8px;
+    
+}
+.buttonpic{
+    margin-right: 5px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    gap: 24px;
+}
+.bigblock{
+    width: 800px;
+    height: 710px;
+    background-color: #001F3F;
+    border: 2px solid #FFFFFF14;
+    border-radius: 12px;
+}
+.novostb{
+     background-color: #001F3F;
+    border: 2px solid #FFFFFF14;
+    border-radius: 12px;
+    width: 600px;
+    height: 340px;
+    margin-bottom: 24px;
+}
+.statiib{
+     background-color: #001F3F;
+    border: 2px solid #FFFFFF14;
+    border-radius: 12px;
+    width: 600px;
+    height: 340px;
+}
+.titlebb{
+    margin-top: 28px;
+    margin-bottom: 21px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: auto;
+    color: #C4C6CF;
+    margin-left: 24px;
+}
+.subtitlebb{
+     font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #C4C6CF;
+    margin-left: 24px;
+}
+.titlenovostb{
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #AFC8F0;
+    margin-left: 24px;
+}
+.titlestatiib{
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #E3BEB8;
+    margin-left: 24px;
+}
+.novostrow{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+.temanovosti{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+    margin-bottom: 4px;
+}
+.category{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+    margin-bottom: 4px;
+}
+.nazvanie{
+    background-color: #FFFFFF;
+    border: 1px solid #6B7280;
+    border-radius: 8px;
+    width: 214.66px;
+    height: 37px;
+    padding-left: 8px;
+}
+.vveditecat{
+    background-color: #FFFFFF;
+    border: 1px solid #6B7280;
+    border-radius: 8px;
+    width: 214.66px;
+    height: 37px;
+    padding-left: 8px;
+}
+.datapub{
+    margin-left: 24px;
+     font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+     margin-bottom: 4px;
+}
+.mmddyyyy{
+    margin-left: 24px;
+     background-color: #FFFFFF;
+    border: 1px solid #6B7280;
+    border-radius: 8px;
+    width: 470px;
+    height: 38px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+}
+.oblozhka{
+    margin-left: 24px;
+     font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+     margin-bottom: 4px;
+}
+.nazvaniestatii{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+    margin-bottom: 4px;
+    margin-left: 24px;
+}
+.vveditenaz{
+    margin-left: 24px;
+     background-color: #FFFFFF;
+    border: 1px solid #6B7280;
+    border-radius: 8px;
+    width: 470px;
+    height: 38px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+}
+.statiirow{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+}
+.statiirow2{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-left: 24px;
+}
+.dlitelnost{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+    margin-bottom: 4px;
+}
+.nameauthor{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+    margin-bottom: 4px;
+}
+.minutes{
+    background-color: #FFFFFF;
+    border: 1px solid #6B7280;
+    border-radius: 8px;
+    width: 220px;
+    height: 37px;
+    padding-left: 8px;
+}
+.namewrite{
+     background-color: #FFFFFF;
+    border: 1px solid #6B7280;
+    border-radius: 8px;
+    width: 220px;
+    height: 37px;
+    padding-left: 8px;
+}
+.photoauthor{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+    margin-bottom: 4px;
+}
+.photoandbutton{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.zagruzitphotoau{
+    color: #E1E3E4;
+    background-color: #1D2021;
+    width: 85.66px;
+    height: 26px;
+    border: 1px solid #43474E;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.obltitle{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #C4C6CF;
+    margin-bottom: 4px;
+}
+.zagoblnovosti{
+    margin-left: 24px;
+    margin-bottom: 49px;
+}
+
+
+
+
